@@ -1,1 +1,15 @@
 # App-Dev-and-SIA-2-Activity
+
+A collection of Laravel-based activities that demonstrate essential web development concepts such as routing, controllers, Blade templating, form handling, validation, CRUD operations, database integration, authentication, and API integration. These projects showcase the implementation of Laravel’s MVC architecture in creating dynamic and functional web applications, including custom systems, database-driven features, secure user authentication, and external API connectivity.
+
+List and Explanation of the Activities Included
+
+SIA_Activity_1 – A UML design documentation for the “CLARA’S BEST: Kakanin Delicacies Ordering and Reservation System.” This activity presents the overall system overview, identified users or actors, major system functionalities, and a use case diagram illustrating the ordering and reservation workflow of the kakanin delicacies business.
+
+SIA_Activity_2 – This activity involves developing a simple Laravel mini-system with a unique theme selected by the student. The project utilizes routes, controllers, Blade templates, and data passing within Laravel’s MVC architecture. It includes a list page displaying all records and a detailed page that shows complete information about a selected item. The system contains at least five custom records with three attributes each and demonstrates proper navigation and MVC implementation.
+
+SIA_Activity_3 – This activity focuses on creating a fully functional Laravel CRUD (Create, Read, Update, Delete) application integrated with a MySQL database. Students are required to configure database connections through the .env file, create migrations for database tables, and build a unique system with complete CRUD functionality using routes, controllers, and Blade templates. The project enables users to dynamically add, view, edit, and delete records while following Laravel’s MVC framework.
+
+SIA_Activity_4 – This activity requires the development of a Laravel form handling system that gathers user input using Blade template forms. The project processes form submissions through routes and controllers, applies validation rules to ensure accurate input, and properly displays validation errors. Students must include at least five input fields, implement CSRF protection, and retain old input values whenever validation fails. The activity demonstrates Laravel’s form handling, validation, and error management features using the MVC structure.
+
+SIA_Activity_5 (integration-app) – This activity involves building a Laravel application that integrates authentication and APIs. Students set up login and registration using Laravel Breeze, customize registration by adding fields such as Full Name and Role, and implement role-based dashboards. The project also includes the creation of a custom REST API that returns user data and the integration of data from a public API such as Weather API or JSONPlaceholder. The final application combines authenticated user information, custom API responses, and external API data into a unified dashboard, demonstrating Laravel authentication, API creation, API consumption, and system integration concepts.
